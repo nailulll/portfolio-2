@@ -1,0 +1,451 @@
+<!-- 
+    if you want to work together please email me ilul4530@gmail.com
+
+    my sosial media
+    twiteer @_justalfa
+    instagram @_justalfa
+    
+ -->
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="dist/style.css" />
+    <script>
+      if (
+        localStorage.theme == "dark" ||
+        (!("theme" in localStorage) &&
+          window.watchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="fixed top-0 left-0 z-50 flex w-full items-center bg-dark bg-opacity-80 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50"
+    >
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <p class="block text-lg font-bold text-primary">iLuL</p>
+          </div>
+          <div class="flex items-center px-4">
+              <ul class="flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="mx-3 flex py-3 text-sm font-semibold text-text2 group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#project"
+                    class="mx-3 flex py-3 text-sm font-semibold text-text2 group-hover:text-primary"
+                    >Project</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#youtube"
+                    class="mx-3 flex py-3 text-sm font-semibold text-text2 group-hover:text-primary"
+                  >
+                    Youtube
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="mx-3 flex py-3 text-sm font-semibold text-text2 group-hover:text-primary"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- hero -->
+    <section id="hero" class="bg-dark py-40">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="mb-10 w-full px-4 md:w-1/2">
+            <h1 class="text-3xl font-semibold text-primary">
+              Hi, I'm Nailul Ngafwa
+            </h1>
+            <h2 class="mt-3 text-5xl font-semibold text-white">
+              UI/UX Designer &
+            </h2>
+            <h2 class="mt-3 text-5xl font-semibold text-white">
+              Web Programmer
+            </h2>
+            <p class="mt-3 font-semibold text-text2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In,
+              neque aliquam quod autem quia harum, illum modi amet corrupti
+              ratione maiores debitis et iure quaerat soluta reprehenderit eum,
+              velit repudiandae.
+            </p>
+            <button
+              class="mt-10 rounded-sm bg-primary px-10 py-3 font-semibold text-white hover:bg-opacity-50"
+            >
+              Email Me
+            </button>
+            <br />
+            <a
+              href="#"
+              class="mt-7 block font-semibold text-white hover:text-primary"
+              >Download CV</a
+            >
+          </div>
+          <div
+            class="group relative w-full px-4 md:w-1/2 lg:transition-all lg:duration-150"
+          >
+            <img
+              src="img/profile.png"
+              alt=""
+              class="absolute left-8 z-20 lg:left-28 lg:transition-all lg:duration-150 lg:group-hover:left-32"
+            />
+            <img
+              src="img/Rectangle 9.png"
+              alt=""
+              class="absolute left-8 lg:left-[130px] lg:transition-all lg:duration-150 lg:group-hover:left-32"
+            />
+            <img
+              src="img/Group 3.png"
+              alt=""
+              class="absolute right-20 z-10 lg:right-36 lg:transition-all lg:duration-150 lg:group-hover:right-20"
+            />
+            <img
+              src="img/Rectangle 10.png"
+              alt=""
+              class="absolute left-0 z-10 lg:left-16 lg:transition-all lg:duration-150 lg:group-hover:left-24"
+            />
+            <img
+              src="img/Ellipse 1.png"
+              alt=""
+              class="absolute left-0 -bottom-96 z-30 md:bottom-56 lg:left-20 lg:bottom-9 lg:transition-all lg:duration-150 lg:group-hover:left-16 lg:group-hover:bottom-10"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+
+    <!-- project -->
+    <section
+      class="relative overflow-hidden bg-dark pt-80 pb-20 lg:py-32"
+      id="project"
+    >
+      <img
+        src="img/Project.png"
+        alt=""
+        class="absolute top-80 left-28 md:-top-4 md:left-96"
+      />
+      <div class="container">
+        <div class="w-full px-4">
+          <h1 class="mb-14 text-5xl font-semibold text-text">
+            Selected Project
+          </h1>
+          <div class="my-10">
+            <img
+              src="img/port-1.jpg"
+              class="h-[524px] w-full rounded-md object-cover shadow-sm"
+            />
+            <h4 class="mt-5 text-3xl font-semibold text-text">App Design</h4>
+            <p class="mt-3 text-sm font-semibold text-text2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              officiis esse blanditiis dolore odio officia! Ullam similique
+              facere voluptatum aliquid adipisci incidunt dolorum, iusto neque
+              pariatur ipsa porro vitae molestias?
+            </p>
+            <div class="mt-2 flex">
+              <a
+                href=""
+                class="block font-semibold text-text hover:text-primary"
+                >Visit Case Study</a
+              >
+              <a
+                href=""
+                class="mx-3 block font-semibold text-text hover:text-primary"
+                >Visit Google Play Store</a
+              >
+            </div>
+          </div>
+          <div class="my-10">
+            <img
+              src="img/port-2.jpg"
+              class="h-[524px] w-full rounded-md object-cover shadow-sm"
+            />
+            <h4 class="mt-5 text-3xl font-semibold text-text">App Design</h4>
+            <p class="mt-3 text-sm font-semibold text-text2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              officiis esse blanditiis dolore odio officia! Ullam similique
+              facere voluptatum aliquid adipisci incidunt dolorum, iusto neque
+              pariatur ipsa porro vitae molestias?
+            </p>
+            <div class="mt-2 flex">
+              <a
+                href=""
+                class="block font-semibold text-text hover:text-primary"
+                >Visit Case Study</a
+              >
+              <a
+                href=""
+                class="mx-3 block font-semibold text-text hover:text-primary"
+                >Visit Google Play Store</a
+              >
+            </div>
+          </div>
+          <div class="my-10">
+            <img
+              src="img/port-3.jpg"
+              class="h-[524px] w-full rounded-md object-cover shadow-sm"
+            />
+            <h4 class="mt-5 text-3xl font-semibold text-text">App Design</h4>
+            <p class="mt-3 text-sm font-semibold text-text2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              officiis esse blanditiis dolore odio officia! Ullam similique
+              facere voluptatum aliquid adipisci incidunt dolorum, iusto neque
+              pariatur ipsa porro vitae molestias?
+            </p>
+            <div class="mt-2 flex">
+              <a
+                href=""
+                class="block font-semibold text-text hover:text-primary"
+                >Visit Case Study</a
+              >
+              <a
+                href=""
+                class="mx-3 block font-semibold text-text hover:text-primary"
+                >Visit Google Play Store</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end project -->
+
+    <!-- interested -->
+    <section id="interested" class="bg-dark py-32">
+      <div class="container">
+        <div class="bg-gradient-to-r from-[#41444B] to-dark">
+          <div class="flex flex-wrap items-center py-8 px-4">
+            <div class="w-full px-4 lg:w-1/2">
+              <div class="px-4">
+                <h3 class="block text-center text-3xl font-semibold text-white">
+                  Interested Work With Me?
+                </h3>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2">
+              <div
+                class="flex flex-wrap items-center justify-center gap-2 px-4"
+              >
+                <button
+                  class="rounded-md border-2 border-text bg-transparent px-10 py-3 font-semibold text-white shadow-sm transition duration-150 ease-in-out hover:bg-primary"
+                >
+                  See More Project
+                </button>
+                <a href="ilul4530@gmail.com" target="_blank"
+                  class="rounded-md border-2 border-primary bg-primary px-10 py-3 font-semibold text-white transition duration-150 ease-in-out hover:opacity-60"
+                >
+                  Email Me
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end interested -->
+
+    <!-- youtube  -->
+    <section
+      class="relative overflow-hidden bg-dark py-20 lg:py-32"
+      id="youtube"
+    >
+      <img
+        src="img/YouTube.png"
+        alt=""
+        class="absolute top-80 left-28 md:-top-4 md:left-96"
+      />
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2">
+            <a href="https://youtube.com/c/ALPHAOS" target="_blank">
+              <img
+                src="img/Group 11.png"
+                class="w-full object-cover shadow-sm"
+              />
+            </a>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h1 class="text-3xl font-semibold text-text">Why I Started A</h1>
+            <h2 class="mt-5 mb-8 text-5xl font-semibold text-primary">
+              YouTube Channel
+            </h2>
+            <p class="font-semibold text-text2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quae vitae corporis dolorem tenetur debitis modi delectus pariatur
+              necessitatibus aliquid corrupti, qui similique, explicabo, quam
+              itaque nulla labore cum ea!
+            </p>
+            <a
+              href="https://youtube.com/c/ALPHAOS"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-text2 underline"
+              >VIsit my channel</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end youtube -->
+
+    <!-- why hire me -->
+    <section class="relative overflow-hidden bg-dark pt-32 pb-60">
+      <img
+        src="img/Why me.png"
+        alt=""
+        class="absolute top-10 left-28 md:top-72 md:left-96"
+      />
+      <div class="container">
+        <h1 class="my-5 text-center text-3xl font-semibold text-text2">
+          Why Me?
+        </h1>
+        <div class="flex flex-wrap">
+          <div
+            class="mt-2 flex w-1/2 flex-col justify-center px-4 text-center lg:w-1/4"
+          >
+            <img src="img/Group 12.png" alt="" class="" />
+            <h2 class="mb-5 mt-10 font-semibold text-text">Comunicative</h2>
+            <p class="text-xs text-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nobis
+              excepturi veritatis laudantium sunt esse laboriosam praesentium
+              unde, facere consectetur est quaerat beatae voluptatum
+              necessitatibus soluta amet quo maiores neque.
+            </p>
+          </div>
+          <div
+            class="mt-2 flex w-1/2 flex-col justify-center px-4 text-center lg:w-1/4"
+          >
+            <img src="img/Group 13.png" alt="" class="" />
+            <h2 class="mb-5 mt-10 font-semibold text-text">Collaborative</h2>
+            <p class="text-xs text-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nobis
+              excepturi veritatis laudantium sunt esse laboriosam praesentium
+              unde, facere consectetur est quaerat beatae voluptatum
+              necessitatibus soluta amet quo maiores neque.
+            </p>
+          </div>
+          <div
+            class="mt-2 flex w-1/2 flex-col justify-center px-4 text-center lg:w-1/4"
+          >
+            <img src="img/Group 14.png" alt="" class="" />
+            <h2 class="mb-5 mt-10 font-semibold text-text">Management Freak</h2>
+            <p class="text-xs text-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nobis
+              excepturi veritatis laudantium sunt esse laboriosam praesentium
+              unde, facere consectetur est quaerat beatae voluptatum
+              necessitatibus soluta amet quo maiores neque.
+            </p>
+          </div>
+          <div
+            class="mt-2 flex w-1/2 flex-col justify-center px-4 text-center lg:w-1/4"
+          >
+            <img src="img/Group 15.png" alt="" class="" />
+            <h2 class="mb-5 mt-10 font-semibold text-text">Client Favourite</h2>
+            <p class="text-xs text-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nobis
+              excepturi veritatis laudantium sunt esse laboriosam praesentium
+              unde, facere consectetur est quaerat beatae voluptatum
+              necessitatibus soluta amet quo maiores neque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end why hire me -->
+
+    <!-- client -->
+    <section class="bg-[#3a3a3a] py-24 lg:relative">
+      <div class="container">
+        <h1 class="my-5 text-center text-3xl font-semibold text-text2">
+          Client
+        </h1>
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-2/5 flex justify-center">
+            <img
+              src="img/face7.jpg"
+              alt=""
+              class="h-72 w-72 rounded-full text-center lg:absolute lg:-top-28"
+            />
+          </div>
+          <div class="w-full px-4 lg:w-3/5 text-center lg:text-left">
+            <p class="text-base text-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              officiis officia esse fuga quam harum sed ullam, minima qui autem,
+              maiores blanditiis nisi aut sit molestiae, voluptates asperiores
+              inventore facilis?
+            </p>
+            <h5 class="mt-10 text-lg font-semibold text-text">Muhammad Azka</h5>
+            <h5 class="text-lg text-text">CEO</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end client -->
+
+    <!-- tools -->
+    <section class="relative overflow-hidden bg-dark py-32">
+      <div class="container">
+        <h1 class="my-10 text-center text-5xl font-semibold text-text2">
+          Tools & Skills
+        </h1>
+        <img
+          src="img/Skills.png"
+          alt=""
+          class="absolute top-10 left-28 md:top-16 md:right-52"
+        />
+        <div class="flex flex-wrap justify-between">
+          <img src="img/Group 12.png" alt="" />
+          <img src="img/Group 13.png" alt="" />
+          <img src="img/Group 14.png" alt="" />
+          <img src="img/Group 15.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end tools -->
+    <!-- footer -->
+    <footer class="bg-[#1c1c1c] pt-24" id="contact">
+      <div class="container text-white">
+        <h1 class="text-5xl font-semibold">Get In Touch</h1>
+        <p class="mt-10">For business please send email</p>
+        <a href="ilul4530@gmail.com" target="_blank" class="hover:text-primary transition duration-100 ease-in-out text-base">ilul4530@gmail.com</a>
+        <hr class="my-2" />
+        <h6 class="font-semibold">Social Media</h6>
+        <a href="https://" target="_blank" class="hover:text-primary transition duration-100 ease-in-out">Facebook</a>
+        <a href="https://www.instagram.com._justalfa" target="_blank" class="hover:text-primary transition duration-100 ease-in-out">Instagram</a>
+        <a href="https://youtube.com/c/ALPHAOS" target="_blank" class="hover:text-primary transition duration-100 ease-in-out">Youtube</a>
+        <a href="https://twitter.com/_justalfa" target="_blank" class="hover:text-primary transition duration-100 ease-in-out">Twitter</a>
+
+        <p class="mt-10 text-center text-xs">create by Nailul</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>
